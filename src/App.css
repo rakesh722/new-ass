@@ -1,0 +1,112 @@
+/* Global Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Arial', sans-serif;
+}
+
+body {
+  background-color: #f4f4f4;
+  color: #333;
+  text-align: center;
+  padding: 20px;
+}
+
+/* Counter Component */
+.counter-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.counter-buttons {
+  margin-top: 20px;
+}
+
+.counter-buttons button {
+  margin: 5px;
+}
+
+/* User Data Form */
+.user-form {
+  max-width: 400px;
+  margin: auto;
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.user-form input {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.user-form button {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  background: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.user-form button:hover {
+  background: #0056b3;
+}
+
+/* Dialog Styling */
+.MuiDialog-paper {
+  border-radius: 12px !important;
+}
+
+/* Rich Text Editor */
+.rich-text-container {
+  max-width: 600px;
+  margin: auto;
+  padding: 20px;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.rich-text-container .ql-editor {
+  min-height: 200px;
+}
+
+/* Dashboard */
+.dashboard-container {
+  width: 80%;
+  margin: auto;
+  padding: 20px;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.dashboard-container h2 {
+  margin-bottom: 20px;
+}
+
+@media (max-width: 768px) {
+  .dashboard-container {
+    width: 95%;
+  }
+
+  .user-form {
+    width: 90%;
+  }
+
+  .rich-text-container {
+    width: 90%;
+  }
+}
